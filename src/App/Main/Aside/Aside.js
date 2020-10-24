@@ -118,7 +118,7 @@ const Aside = () => {
 			<div className="aside__videos">
 				<h2 className="subtitle">Videos</h2>
 				<div className="aside__video-block">
-					<iframe width="100%" height="215" src="https://www.youtube.com/embed/Pbuy5CQJymM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="vidos"> </iframe>
+					<iframe width="100%" height="215" src="https://www.youtube.com/embed/Pbuy5CQJymM" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="vidos"> </iframe>
 				</div>
 			</div>
 		</aside>
