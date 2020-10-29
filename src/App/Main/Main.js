@@ -3,11 +3,17 @@ import Section from './Section/Section'
 import Aside from './Aside/Aside'
 import About from './About/About'
 
-const Main = () => {
+const Main = ({
+	needFilter,
+	name,
+}) => {
 	return(
 		<div className="container">
 			<div className="row">
-				<Section/>
+				<Section
+					needFilter={needFilter}
+					name={name}
+				/>
 				<Aside/>
 				<About/>
 			</div>
