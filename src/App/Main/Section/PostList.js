@@ -17,7 +17,7 @@ const PostList = ({
 					comments,
 					title,
 					category,
-					text,
+					short_text,
 				})=>(
 					<PostListItem key={id}
 						id={id}
@@ -26,7 +26,7 @@ const PostList = ({
 						comments={comments}
 						title={title}
 						category={category}
-						text={text}
+						short_text={short_text}
 					/>
 				))
 			}

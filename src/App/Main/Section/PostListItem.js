@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const PostListItem = ({
 	id,
@@ -7,7 +8,7 @@ const PostListItem = ({
 	comments,
 	title,
 	category,
-	text,
+	short_text,
 }) => {
 	return(
 		<div className="post__item" key={id}>
@@ -20,9 +21,13 @@ const PostListItem = ({
 						<div className="post__user"><span>{user}</span> - Nov 28th, 2010</div>
 						<div className="post__coment">{comments} Comments</div>
 					</div>
-					<div className="post__title"><a href="/">{title}</a></div>
+					<div className="post__title">
+						<Link to={`/posts/${id}`}>
+							{title}
+						</Link>
+					</div>
 					<div className="post__category"><a href="/">{category}</a> - Category</div>
-					<div className="post__text">{text}</div>
+					<div className="post__text">{short_text}</div>
 					<div className="post__link"><a href="/">Read More</a></div>
 				</div>
 			</div>

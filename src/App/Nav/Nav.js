@@ -1,6 +1,9 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
-const Nav = () => {
+const Nav = ({
+	removeFilter
+}) => {
 	return (
 		<section className="nav">
 		<div className="container">
@@ -8,12 +11,12 @@ const Nav = () => {
 				<div className="col-xs-12 col-sm-8 col-md-7">
 					<div className="navigation hidden-menu">
 						<ul className="menu">
-							<li><a href="/">Home</a></li>
-							<li><a href="/">About Me</a></li>
-							<li><a href="/">Design Services</a></li>
-							<li><a href="/">Request Quote</a></li>
-							<li><a href="/">Advertise</a></li>
-							<li><a href="/">Contact Me</a></li>
+							<li><Link to="/" onClick={()=>removeFilter()}>Home</Link></li>
+							<li><Link to="/">About Me</Link></li>
+							<li><Link to="/">Design Services</Link></li>
+							<li><Link to="/">Request Quote</Link></li>
+							<li><Link to="/">Advertise</Link></li>
+							<li><Link to="/">Contact Me</Link></li>
 						</ul>
 					</div>
 					<div className="nav-mobile-menu">
@@ -24,10 +27,10 @@ const Nav = () => {
 				</div>
 				<div className="col-xs-12 col-sm-4 col-md-5 toggle">
 					<div className="nav__social">
-						<a href="/" className="nav__icon-1"> </a>
-						<a href="/" className="nav__icon-2"> </a>
-						<a href="/" className="nav__icon-3"> </a>
-						<a href="/" className="nav__icon-4"> </a>
+						<Link to="/" className="nav__icon-1"> </Link>
+						<Link to="/" className="nav__icon-2"> </Link>
+						<Link to="/" className="nav__icon-3"> </Link>
+						<Link to="/" className="nav__icon-4"> </Link>
 					</div>
 				</div>
 			</div>

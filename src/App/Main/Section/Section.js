@@ -7,6 +7,8 @@ import random4 from './img/random4.png'
 import random5 from './img/random5.png'
 import random6 from './img/random6.png'
 import PostList from './PostList'
+import { Route } from 'react-router-dom'
+import PostPage from './PostPage/PostPage'
 
 const Section = ({
 	needFilter,
@@ -19,10 +21,13 @@ const Section = ({
 					<img src={sliderItem} alt=""/>
 				</div>
 			</div>
-				<PostList
-					needFilter={needFilter}
-					name={name}
-				/>
+				<Route path="/" exact render={()=>(
+					<PostList
+						needFilter={needFilter}
+						name={name}
+					/>
+				)}/>
+				<Route path="/posts/:postId" component={PostPage}/>
 				<div className="section__navigation">
 					<ul className="pages">
 						<li><a href="/">1</a></li>
