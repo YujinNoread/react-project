@@ -16,7 +16,7 @@ const Browse = ({
 							<li onClick={()=>addFilterByCategory("Wordpress")}>wordpress</li>
 							<li onClick={()=>addFilterByCategory("Tutorials")}>tutorials</li>
 							<li onClick={()=>addFilterByCategory("Fonts")}>fonts</li>
-							<li onClick={()=>addFilterByCategory("Freebies")}>wallpapers</li>
+							<li onClick={()=>addFilterByCategory("Wallpapers")}>wallpapers</li>
 						</ul>
 					</div>
 					<div className="nav-mobile-menu">

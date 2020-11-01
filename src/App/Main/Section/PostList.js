@@ -10,7 +10,7 @@ const PostList = ({
 		<div className="section__posts">
 			{
 				
-				postsData.filter((post)=> needFilter ? post.category===name : post).map(({
+				postsData.filter((post)=> needFilter ? post.category===name : post).slice(0,7).map(({
 					id,
 					image,
 					user,

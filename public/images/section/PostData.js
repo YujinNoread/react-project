@@ -103,7 +103,7 @@ const postsData = [
 	},
 	{
 		id:7,
-		image:"./images/section/post7.jpg",
+		image:"./images/section/post6.jpg",
 		user:"Admin",
 		comments:10,
 		title:"PSD book template & icons",
@@ -222,7 +222,7 @@ const postsData = [
 	},
 	{
 		id:14,
-		image:"./images/section/post7.jpg",
+		image:"./images/section/post6.jpg",
 		user:"Admin",
 		comments:10,
 		title:"PSD book template & icons",
@@ -341,7 +341,7 @@ const postsData = [
 	},
 	{
 		id:21,
-		image:"./images/section/post7.jpg",
+		image:"./images/section/post6.jpg",
 		user:"Admin",
 		comments:10,
 		title:"PSD book template & icons",
@@ -459,7 +459,7 @@ const postsData = [
 	},
 	{
 		id:28,
-		image:"./images/section/post7.jpg",
+		image:"./images/section/post6.jpg",
 		user:"Admin",
 		comments:10,
 		title:"PSD book template & icons",
@@ -578,7 +578,7 @@ const postsData = [
 	},
 	{
 		id:35,
-		image:"./images/section/post7.jpg",
+		image:"./images/section/post6.jpg",
 		user:"Admin",
 		comments:10,
 		title:"PSD book template & icons",
@@ -697,7 +697,7 @@ const postsData = [
 	},
 	{
 		id:42,
-		image:"./images/section/post7.jpg",
+		image:"./images/section/post6.jpg",
 		user:"Admin",
 		comments:10,
 		title:"PSD book template & icons",
