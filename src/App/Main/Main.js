@@ -6,6 +6,7 @@ import About from './About/About'
 const Main = ({
 	needFilter,
 	name,
+	addFilterByCategory
 }) => {
 	return(
 		<div className="container">
@@ -13,6 +14,7 @@ const Main = ({
 				<Section
 					needFilter={needFilter}
 					name={name}
+					addFilterByCategory={addFilterByCategory}
 				/>
 				<Aside/>
 				<About/>

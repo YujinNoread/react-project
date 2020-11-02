@@ -5,6 +5,7 @@ import PostListItem from './PostListItem'
 const PostList = ({
 	needFilter,
 	name,
+	addFilterByCategory
 }) => {
 	return (
 		<div className="section__posts">
@@ -27,6 +28,7 @@ const PostList = ({
 						title={title}
 						category={category}
 						short_text={short_text}
+						addFilterByCategory={addFilterByCategory}
 					/>
 				))
 			}

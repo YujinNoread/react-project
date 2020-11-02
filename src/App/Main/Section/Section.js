@@ -13,6 +13,7 @@ import PostPage from './PostPage/PostPage'
 const Section = ({
 	needFilter,
 	name,
+	addFilterByCategory
 }) => {
 	return(
 		<section className="section col-xs-12 col-sm-8">
@@ -25,6 +26,7 @@ const Section = ({
 					<PostList
 						needFilter={needFilter}
 						name={name}
+						addFilterByCategory={addFilterByCategory}
 					/>
 				)}/>
 				<Route path="/posts/:postId" component={PostPage}/>

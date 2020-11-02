@@ -53,6 +53,7 @@ class App extends Component {
 				<Main
 					needFilter={this.state.postCategory.needFilter}
 					name={this.state.postCategory.category}
+					addFilterByCategory={this.addFilterByCategory}
 				/>
 				<Footer/>
 				<script src={js}></script>

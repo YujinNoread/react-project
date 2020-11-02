@@ -9,6 +9,7 @@ const PostListItem = ({
 	title,
 	category,
 	short_text,
+	addFilterByCategory
 }) => {
 	return(
 		<div className="post__item" key={id}>
@@ -26,7 +27,7 @@ const PostListItem = ({
 							{title}
 						</Link>
 					</div>
-					<div className="post__category"><a href="/">{category}</a> - Category</div>
+					<div className="post__category" onClick={()=>addFilterByCategory(category)}>{category} - Category</div>
 					<div className="post__text">{short_text}</div>
 					<div className="post__link"><a href="/">Read More</a></div>
 				</div>

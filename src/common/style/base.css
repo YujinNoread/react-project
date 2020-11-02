@@ -303,11 +303,12 @@ body {
 .post__title a:hover{
 	color: #eb4900;
 }
-.post__category a{
+.post__category{
 	color: #eb4900;
 	text-decoration: none;
+	cursor: pointer;
 }
-.post__category a:hover{
+.post__category:hover{
 	color: #373737;
 }
 .post__text {
