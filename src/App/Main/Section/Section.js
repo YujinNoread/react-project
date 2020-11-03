@@ -22,7 +22,7 @@ const Section = ({
 					<img src={sliderItem} alt=""/>
 				</div>
 			</div>
-				<Route path="/" exact render={()=>(
+				<Route path="/react-project" exact render={()=>(
 					<PostList
 						needFilter={needFilter}
 						name={name}

@@ -11,7 +11,7 @@ const Nav = ({
 				<div className="col-xs-12 col-sm-8 col-md-7">
 					<div className="navigation hidden-menu">
 						<ul className="menu">
-							<li><Link to="/" onClick={()=>removeFilter()}>Home</Link></li>
+							<li><Link to="/react-project" onClick={()=>removeFilter()}>Home</Link></li>
 							<li><Link to="/">About Me</Link></li>
 							<li><Link to="/">Design Services</Link></li>
 							<li><Link to="/">Request Quote</Link></li>
