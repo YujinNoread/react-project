@@ -15,7 +15,7 @@ const PostListItem = ({
 		<div className="post__item" key={id}>
 			<div className="row">
 				<div className="col-xs-3 col-sm-4 post__img">
-					<img src={image} alt=""/>
+					<img src={window.location.origin + image} alt=""/>
 				</div>
 				<div className="col-xs-9 col-sm-8 post__body">
 					<div className="post__info">
