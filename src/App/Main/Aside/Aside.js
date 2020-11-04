@@ -42,16 +42,16 @@ const Aside = () => {
 			<div className="aside__images">
 				<div className="row">
 					<div className="col-xs-6 col-sm-6 aside__images-column">
-						<a href="/"><img src="img/aside__images/aside1.jpg" alt=""/></a>
+						<a href="/"><img src="images/aside__images/aside1.jpg" alt=""/></a>
 					</div>
 					<div className="col-xs-6 col-sm-6 aside__images-column">
-						<a href="/"><img src="img/aside__images/aside2.jpg" alt=""/></a>
+						<a href="/"><img src="images/aside__images/aside2.jpg" alt=""/></a>
 					</div>
 					<div className="col-xs-6 col-sm-6 aside__images-column">
-						<a href="/"><img src="img/aside__images/aside3.jpg" alt=""/></a>
+						<a href="/"><img src="images/aside__images/aside3.jpg" alt=""/></a>
 					</div>
 					<div className="col-xs-6 col-sm-6 aside__images-column">
-						<a href="/"><img src="img/aside__images/aside4.jpg" alt=""/></a>
+						<a href="/"><img src="images/aside__images/aside4.jpg" alt=""/></a>
 					</div>
 				</div>
 			</div>
