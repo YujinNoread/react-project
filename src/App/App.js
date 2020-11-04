@@ -4,12 +4,13 @@ import Nav from './Nav/Nav'
 import Browse from './Browse/Browse'
 import Main from './Main/Main'
 import Footer from './Footer/Footer'
-import js from './js'
-
+import PureJS from './PureJs'
 
 import '../common/style/reset.css'
 import '../common/style/css_grid.css'
 import '../common/style/base.css'
+
+
 
 
 class App extends Component {
@@ -56,7 +57,7 @@ class App extends Component {
 					addFilterByCategory={this.addFilterByCategory}
 				/>
 				<Footer/>
-				<script src={js}></script>
+				<PureJS/>
 			</>
 		)
 	}
